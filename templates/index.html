@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form action="" method="post">
+    <div>
+    <label for="functions">Выберите функцию:</label>
+    <select name="functions" id="functions">
+    <option value="sin">sin()</option>
+    <option value="cos">cos()</option>
+    <option value="tan">tan()</option>
+    </select>
+    </div>
+    <div font=roboto>
+    <label for="deg">Введите значение:</label>
+    <input id="deg", name="deg">
+    <select name="radordeg" id="radordeg">
+    <option value="rad">rad</option>
+    <option value="deg">deg</option>
+    </select>
+    </div>
+    <label for="accuracy">Знаков после запятой:</label>
+    <input id="accuracy", name="accuracy">
+    <input type="submit">
+</form>
+<h1>Результат = {{res}}</h1>
+</body>
+</html>
